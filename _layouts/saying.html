@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<section>
+	<h2><q>{{ page.quote }}</q></h2>
+	<p id="meaning"><strong>Meaning:</strong> {{ page.meaning }}</p>
+	{% if page.country.name %}
+	<p id="location"><strong>Originated in:</strong> {{ page.country.emoji }} {{ page.country.name }}</p>
+	{% endif %}
+	{% if page.original.text %}
+	<p id="original"><strong>Original quote:</strong>
+		<q
+		{% if page.original.language.abbreviation %}
+		lang="{{ page.original.language.abbreviation }}"
+		{% endif %}
+		>{{ page.original.text }}</q>
+		{% if page.original.language.name %}
+		({{ page.original.language.name }})
+		{% endif %}
+	</p>
+	{% endif %}
+	{% if page.earliestAttestation %}
+	<p id="earliest-attestation"><strong>Earliest attestation:</strong> {{ page.earliestAttestation }}</p>
+	{% endif %}
+	{{ content }}
+</section>

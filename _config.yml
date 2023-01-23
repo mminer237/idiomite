@@ -22,11 +22,20 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+  -
+    scope:
+      path: ""
+      type: "sayings"
+    values:
+      layout: "saying"
 
 collections:
   pages:
     output: true
     permalink: /:name
+  sayings:
+    output: true
+    permalink: /sayings/:name
 
 permalink: /:name
 

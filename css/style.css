@@ -187,6 +187,12 @@ a:hover {
 .full-width, form {
 	width: 100%;
 }
+#meaning {
+	font-size: 24px;
+}
+#location, #original, #earliest-attestation {
+	font-size: 20px;
+}
 footer img:hover {
 	filter: brightness(2.4);
 }
