@@ -1,0 +1,37 @@
+title: Idiomite
+url: https://idiomite.com
+sourceUrl: https://github.com/mminer237/idiomite
+author: Matthew Miner
+# tagManagerCode: GTM-TK37G57
+# googleAdClient: ca-pub-5576042369154755
+themeColor: "#2a4d8a"
+msTileColor: "#2a4d8a"
+
+googleFonts:
+  - Oswald:wght@500
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+
+permalink: /:name
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
