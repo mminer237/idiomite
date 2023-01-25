@@ -90,9 +90,7 @@ main {
 section, article {
 	align-items: flex-start;
 	background-color: var(--main-background-color);
-	display: flex;
 	flex: 1 1 auto;
-	flex-direction: column;
 	min-width: min(700px, calc(100vw - 20px));
 	padding: 10px;
 }
@@ -110,11 +108,16 @@ section img.left {
 section img.right {
 	float: right;
 }
+section img.article-symbol {
+	opacity: 0.8;
+	max-width: 200px;
+}
 :is(section, article) article {
 	width: 100%;
 }
 h2 {
 	border-bottom: 4px solid var(--text-color);
+	display: flex;
 	font-family: 'Montserrat', sans-serif;
 	padding: 0 10px;
 }
@@ -150,9 +153,7 @@ details {
 	width: 100%;
 }
 details, h2 {
-	left: 10px;
 	max-width: calc(100vw - 40px);
-	position: sticky;
 }
 details button {
 	margin: 10px 0 10px 10px;
@@ -207,6 +208,9 @@ footer div {
 		--main-background-color: #332;
 		--text-color: #f0f0f0;
 		--hover-color: #fff;
+	}
+	section img.article-symbol {
+		filter: invert();
 	}
 	footer img:hover {
 		filter: brightness(1.2) drop-shadow(0.7px 0.7px #fff) drop-shadow(0.7px 0.7px 2px #fff4) !important;

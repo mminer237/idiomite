@@ -36,7 +36,7 @@ collections:
     permalink: /:name
   sayings:
     output: true
-    permalink: /sayings/:name
+    permalink: /:collection/:path
 
 permalink: /:name
 

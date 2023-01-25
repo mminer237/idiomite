@@ -3,6 +3,9 @@ layout: default
 ---
 
 <section>
+	{% if page.image %}
+	<img src="{{ page.image }}" alt="{{ page.image_alt }}" class="left article-symbol">
+	{% endif %}
 	<h2><q>{{ page.quote }}</q></h2>
 	<p id="meaning"><strong>Meaning:</strong> {{ page.meaning }}</p>
 	{% if page.country.name %}

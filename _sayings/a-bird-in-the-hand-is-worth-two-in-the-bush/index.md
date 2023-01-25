@@ -11,6 +11,8 @@ country:
   name: England
 earliestAttestation: <a href="https://mss-cat.trin.cam.ac.uk/manuscripts/uv/view.php?n=O.2.45&n=O.2.45" target="_blank"><i>Manuscript O.2.45</i></a> in Trinity College, Cambridge (13th century)
 meaning: Having something guaranteed is better than having a chance to get something more.
+image: image.svg
+image_alt: A bird in a hand
 ---
 
 While some say this is a falconry metaphor, that seems unlikely and contrary to its simple meaning. This is simply a common sense metaphor about how sure things are better than things relying on unnecessary risks.
