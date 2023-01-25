@@ -8,6 +8,7 @@ themeColor: "#2a4d8a"
 msTileColor: "#2a4d8a"
 
 googleFonts:
+  - Montserrat:wght@700
   - Oswald:wght@500
 
 defaults:

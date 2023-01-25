@@ -115,6 +115,7 @@ section img.right {
 }
 h2 {
 	border-bottom: 4px solid var(--text-color);
+	font-family: 'Montserrat', sans-serif;
 	padding: 0 10px;
 }
 h2, h2 a {
@@ -123,6 +124,7 @@ h2, h2 a {
 	margin: 0;
 }
 h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
 	margin: 15px 0 2px;
 }
 :is(h3, h4, h5, h6):not(:first-child) {
