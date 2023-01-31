@@ -5,7 +5,7 @@ author: Matthew Miner
 # tagManagerCode: GTM-TK37G57
 # googleAdClient: ca-pub-5576042369154755
 themeColor: "#2a4d8a"
-msTileColor: "#2a4d8a"
+tileColor: "#2a4d8a"
 
 googleFonts:
   - Montserrat:wght@700
