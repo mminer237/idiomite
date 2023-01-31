@@ -29,12 +29,21 @@ defaults:
       type: "sayings"
     values:
       layout: "saying"
+  -
+    scope:
+      path: ""
+      type: "idioms"
+    values:
+      layout: "saying"
 
 collections:
   pages:
     output: true
     permalink: /:name
   sayings:
+    output: true
+    permalink: /:collection/:path
+  idioms:
     output: true
     permalink: /:collection/:path
 

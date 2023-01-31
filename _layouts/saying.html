@@ -8,18 +8,19 @@ layout: default
 	{% endif %}
 	<h2><q>{{ page.quote }}</q></h2>
 	<p id="meaning"><strong>Meaning:</strong> {{ page.meaning }}</p>
-	{% if page.country.name %}
-	<p id="location"><strong>Originated in:</strong> {{ page.country.emoji }} {{ page.country.name }}</p>
+	{% if page.country %}
+	{% assign country = site.data.countries[page.country] %}
+	<p id="location"><strong>Originated in:</strong> {{ country.flag }} {{ country.name }}</p>
 	{% endif %}
 	{% if page.original.text %}
 	<p id="original"><strong>Original quote:</strong>
 		<q
-		{% if page.original.language.abbreviation %}
-		lang="{{ page.original.language.abbreviation }}"
+		{% if page.original.language %}
+		lang="{{ page.original.language }}"
 		{% endif %}
 		>{{ page.original.text }}</q>
-		{% if page.original.language.name %}
-		({{ page.original.language.name }})
+		{% if page.original.language %}
+		({{ site.data.languages[page.original.language] }})
 		{% endif %}
 	</p>
 	{% endif %}

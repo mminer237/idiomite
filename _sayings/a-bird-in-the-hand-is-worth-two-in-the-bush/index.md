@@ -3,12 +3,8 @@ title: A Bird in the Hand is Worth Two in the Bush
 quote: A bird in the hand is worth two in the bush
 original:
   text: Plus valet in manibus avis unica quam dupla silvis
-  language:
-    name: Latin
-    abbreviation: la
-country:
-  emoji: 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-  name: England
+  language: la
+country: gb-eng
 earliestAttestation: <a href="https://mss-cat.trin.cam.ac.uk/manuscripts/uv/view.php?n=O.2.45&n=O.2.45" target="_blank"><i>Manuscript O.2.45</i></a> in Trinity College, Cambridge (13th century)
 meaning: Having something guaranteed is better than having a chance to get something more.
 image: image.svg
