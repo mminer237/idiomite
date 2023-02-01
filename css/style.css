@@ -118,10 +118,10 @@ section img.article-symbol {
 h2 {
 	border-bottom: 4px solid var(--text-color);
 	display: flex;
-	font-family: 'Montserrat', sans-serif;
 	padding: 0 10px;
 }
-h2, h2 a {
+h2, h2 a, summary {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 28px;
 	font-weight: bold;
 	margin: 0;

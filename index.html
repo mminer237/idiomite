@@ -5,4 +5,12 @@ layout: default
 <section>
 	<h2>About</h2>
 	<p>Here you can learn the meaning and histories behind all sorts of common sayings.</p>
+	<details open>
+		<summary>Idioms</summary>
+		{% include list.html type="idioms" %}
+	</details>
+	<details open>
+		<summary>Other Sayings</summary>
+		{% include list.html type="sayings" %}
+	</details>
 </section>
