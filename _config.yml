@@ -8,7 +8,7 @@ themeColor: "#2a4d8a"
 tileColor: "#2a4d8a"
 
 googleFonts:
-  - Montserrat:wght@700
+  - Montserrat:wght@600;700
   - Oswald:wght@500
 
 defaults:
