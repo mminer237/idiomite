@@ -147,7 +147,7 @@ summary {
 	padding: 8px 12px;
 }
 details {
-	background-color: hsla(0, 0%, 50%, 24%);
+	background-color: hsla(0, 0%, 45%, 24%);
 	border: 3px var(--primary-color) solid;
 	margin-bottom: 18px;
 	overflow: hidden;
@@ -206,12 +206,18 @@ footer div {
 @media (prefers-color-scheme: dark) {
 	:root {
 		--background-color: #111;
-		--main-background-color: #332;
+		--main-background-color: #2D2D2D;
 		--text-color: #f0f0f0;
 		--hover-color: #fff;
 	}
 	section img.article-symbol {
 		filter: invert();
+	}
+	a {
+		color: #73a7ff;
+	}
+	a:hover {
+		color: #a0c3ff;
 	}
 	footer img:hover {
 		filter: brightness(1.2) drop-shadow(0.7px 0.7px #fff) drop-shadow(0.7px 0.7px 2px #fff4) !important;
