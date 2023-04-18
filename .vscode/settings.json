@@ -2,5 +2,6 @@
 	"liquid.format.enable": false,
 	"files.associations": {
 		"*.html": "liquid"
-	}
+	},
+	"python.analysis.typeCheckingMode": "basic"
 }
