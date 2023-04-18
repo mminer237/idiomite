@@ -4,3 +4,6 @@ af:
 gb-eng:
   name: England
   flag: 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+us:
+  name: United States of America
+  flag: 🇺🇸
