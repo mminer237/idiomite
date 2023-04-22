@@ -4,6 +4,12 @@ af:
 gb-eng:
   name: England
   flag: 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+gb:
+  name: United Kingdom
+  flag: 🇬🇧
 us:
   name: United States of America
   flag: 🇺🇸
+xd:
+  name: German Confederation
+  flag: 🇩🇪
