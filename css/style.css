@@ -111,7 +111,8 @@ section img.right {
 }
 section img.article-symbol {
 	opacity: 0.8;
-	max-width: 200px;
+	max-width: min(200px, 50%);
+	max-height: 240px;
 }
 :is(section, article) article {
 	width: 100%;
