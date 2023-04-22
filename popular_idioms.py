@@ -1,7 +1,3 @@
-# from itertools import batched, chain, islice
-from itertools import chain, islice
-from time import sleep
-import pandas as pd                        
 from pytrends.request import TrendReq
 import requests
 import yaml
