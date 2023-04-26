@@ -1,4 +1,4 @@
-# Idiomite
+# <img src="assets/logo.svg" alt="Idiomite logo" width="30"> Idiomite
 
 A site to teach the meaning and histories behind all sorts of common sayings.
 
