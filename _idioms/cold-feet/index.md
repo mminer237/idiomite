@@ -4,7 +4,7 @@ quote: Cold feet
 original:
   text: Kalte Füße
   language: de
-country: xd
+country: xdb
 earliestAttestation: <i>Seed-time and Harvest</i> by Fritz Reuter (1862)
 meaning: Apprehension concerning a planned commitment
 image: foot-with-icicles.svg

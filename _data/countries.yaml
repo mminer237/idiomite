@@ -13,6 +13,9 @@ gb:
 us:
   name: United States of America
   flag: 🇺🇸
-xd:
+xdb:
   name: German Confederation
   flag: 🇩🇪
+xer:
+  name: Byzantine Empire
+  flag: <img src="/assets/flags/xer.svg" alt="Byzantine Empire flag" class="flag">

@@ -180,6 +180,12 @@ img {
 	max-width: max(750px, 100%);
 	margin: auto;
 }
+img.flag {
+	display: inline-block;
+	max-height: 23px;
+	max-width: 23px;
+	vertical-align: middle;
+}
 li {
 	margin: 5px;
 	padding-left: 4px;
