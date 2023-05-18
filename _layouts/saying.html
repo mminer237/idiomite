@@ -10,7 +10,7 @@ layout: default
 	<p id="meaning"><strong>Meaning:</strong> {{ page.meaning }}</p>
 	{% if page.country %}
 	{% assign country = site.data.countries[page.country] %}
-	<p id="location"><strong>Originated in:</strong> {{ country.flag }} {{ country.name }}</p>
+	<p id="location"><strong>Originated in:</strong> {{ country.flag }}&nbsp;{{ country.name }}</p>
 	{% endif %}
 	{% if page.original.text %}
 	<p id="original"><strong>Original quote:</strong>
