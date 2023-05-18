@@ -50,6 +50,6 @@ for chunk in chunks(general_results, 4):
 			else:
 				scaled_results[query] = value * (ratio or 1)
 			last_result = { "query": query, "value": value }
-scaled_results = dict(sorted(scaled_results.items(), key=lambda item: item[1], reverse=True))
+scaled_results = dict(sorted(([key, round(value, 1)] for [key, value] in scaled_results.items()), key=lambda item: item[1], reverse=True))
 
 print(yaml.dump(scaled_results, sort_keys=False))
