@@ -190,6 +190,11 @@ li {
 	margin: 5px;
 	padding-left: 4px;
 }
+@media (any-pointer: coarse) {
+	li {
+		margin: 10px 5px;
+	}
+}
 a {
 	color: var(--primary-color);
 }
