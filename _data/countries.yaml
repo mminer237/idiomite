@@ -19,3 +19,6 @@ xdb:
 xer:
   name: Byzantine Empire
   flag: <img src="/assets/flags/xer.svg" alt="Byzantine Empire flag" class="flag">
+xz:
+  name: International Waters
+  flag: 🏴‍☠️
