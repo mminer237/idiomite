@@ -58,7 +58,7 @@ nav {
 	display: flex;
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 16pt;
+    font-size: 16pt !important;
 	justify-content: center;
 	text-align: center;
 	width: 100%;
@@ -72,7 +72,7 @@ nav ul {
 }
 nav ul li {
 	flex: 1 0 auto;
-	margin: 10px 13px;
+	margin: 10px 0.7vw;
 }
 nav ul li a {
 	display: inline-block;
@@ -192,7 +192,8 @@ li {
 }
 @media (any-pointer: coarse) {
 	li {
-		margin: 10px 5px;
+		font-size: 103.5%;
+		margin: 16px 5px;
 	}
 }
 a {
