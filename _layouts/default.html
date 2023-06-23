@@ -38,10 +38,15 @@
 		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="{{ site.darkThemeColor }}" />
 		{% endif %}
 		<title>{% if page.url == "/" %}{{ site.title | xml_escape }}{% else %}{{ page.title | xml_escape }} – {{ site.title | xml_escape }}{% endif %}</title>
-		<meta property="og:title" content="{% if page.url == '/' %}{{ site.title | xml_escape }}{% else %}{{ page.title | xml_escape }} – {{ site.title | xml_escape }}{% endif %}">
+		<meta property="og:title" content="{% if page.url == '/' %}{{ site.title | xml_escape }}{% else %}{{ page.title | xml_escape }}{% endif %}">
+		<meta property="og:site_name " content="{{ site.title | xml_escape }}">
 		{% if page.description %}<meta name="description" property="og:description" content="{{ page.description }}">{% endif %}
+		{% if page.image %}
+		<meta property="og:image" content="{{ page.url | absolute_url | split: "" | reverse | join: "" | remove_first: "xedni" | split: "" | reverse | join: "" }}{{ page.image }}">
+		{% endif %}
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="canonical" href="{{ page.url | absolute_url }}">
+		<link rel="canonical" href="{{ page.url | absolute_url | split: "" | reverse | join: "" | remove_first: "xedni" | split: "" | reverse | join: "" }}">
+		<meta property="og:url" content="{{ page.url | absolute_url | split: "" | reverse | join: "" | remove_first: "xedni" | split: "" | reverse | join: "" }}">
 		<link rel="stylesheet" href="/css/style.css">
 		{% for font in site.googleFonts %}
 		<link href="https://fonts.googleapis.com/css?family={{ font }}&display=swap" rel="stylesheet">
