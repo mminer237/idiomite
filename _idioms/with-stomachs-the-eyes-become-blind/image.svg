@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="379" height="322" version="1.1" viewBox="0 0 379 322" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<path d="m196 142s-11 14.3-8.09 29.1c2.89 14.8 14.8 9.86 20.6 30.3s-41.4 53.6-66.4 63.3-36.6-16.6-56.6-14.1-29.1 41.4-29.1 41.4l10.8 6.07s1.61-29.1 21.4-32.3c19.8-3.18 24.2 82.3 122 48.2 98.2-34.1 85.4-146 46.4-154-38.9-8.1-40.2 24.7-40.2 24.7s-19.5-9.4-19.5-18.2c0-8.77 6.96-20.8 6.96-20.8z"/>
+	<g id="g3" transform="translate(-34.9,-55)">
+		<circle cx="162" cy="98.1" r="24.9" fill="none" stroke="#000" stroke-width="7"/>
+		<circle cx="162" cy="98.1" r="8.14"/>
+	</g>
+	<use transform="translate(126)" xlink:href="#g3"/>
+	<path d="m197 234s-121-14.6-132-71.7 40.4-112 40.4-112" fill="none" stroke="#000" stroke-width="12"/>
+	<g id="g5" transform="rotate(-21.5 -2.7 173)" fill="none" stroke="#000" stroke-width="12">
+		<path d="m142 97.8 48.2-29.3"/>
+		<path d="m196 106-54.7-8.48 36.9 41" stroke-linejoin="bevel"/>
+	</g>
+	<use transform="matrix(-.961 -.28 -.28 .96 388 35.8)" xlink:href="#g5"/>
+	<path d="m275 55s99.6 48.2 98.3 108-92.7 77.4-92.7 77.4" fill="none" stroke="#000" stroke-width="12"/>
+</svg>
