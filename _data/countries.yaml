@@ -10,6 +10,9 @@ gb-eng:
 gb:
   name: United Kingdom
   flag: 🇬🇧
+il:
+  name: Israel
+  flag: 🇮🇱
 us:
   name: United States of America
   flag: 🇺🇸
