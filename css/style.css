@@ -225,7 +225,7 @@ footer div {
 		--hover-color: #fff;
 	}
 	section img.article-symbol {
-		filter: invert();
+		filter: invert() hue-rotate(180deg);
 	}
 	a {
 		color: #73a7ff;
