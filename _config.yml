@@ -35,6 +35,12 @@ defaults:
       type: "idioms"
     values:
       layout: "saying"
+  -
+    scope:
+      path: ""
+      type: "abbreviations"
+    values:
+      layout: "saying"
 
 collections:
   pages:
@@ -44,6 +50,9 @@ collections:
     output: true
     permalink: /:collection/:path
   idioms:
+    output: true
+    permalink: /:collection/:path
+  abbreviations:
     output: true
     permalink: /:collection/:path
 
