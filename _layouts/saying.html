@@ -15,11 +15,11 @@ layout: default
 	{% if page.original.text %}
 	<p id="original"><strong>Original quote:</strong>
 		<q
-		{% if page.original.language %}
+		{% if page.original.language and page.original.language != "en" %}
 		lang="{{ page.original.language }}"
 		{% endif %}
 		>{{ page.original.text }}</q>
-		{% if page.original.language %}
+		{% if page.original.language and page.original.language != "en" %}
 		({{ site.data.languages[page.original.language] }})
 		{% endif %}
 	</p>
