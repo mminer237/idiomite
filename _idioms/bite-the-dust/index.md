@@ -6,7 +6,7 @@ original:
   language: he
 country: il
 earliestAttestation: <a href="https://www.biblegateway.com/passage/?search=Psalm 72:9&version=KJV;WLC" target="_blank"><i>Psalm 72:9</i></a> (<span lang="la">circa</span> 971 B.C.)
-meaning: To die
+meaning: Die
 image: image.svg
 image_alt: A dead face lying the ground in a dust cloud
 ---

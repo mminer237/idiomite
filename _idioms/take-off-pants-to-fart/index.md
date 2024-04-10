@@ -5,6 +5,7 @@ original:
   text: 脫褲子放屁
   language: zh
 country: zh
+meaning: Overcomplicate a simple task
 image: image.svg
 image_alt: A fart cloud above discarded pants
 ---

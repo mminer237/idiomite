@@ -1,7 +1,7 @@
 ---
 title: Break Up
 quote: Break up
-meaning: To separate or break apart
+meaning: Separate or break apart
 image: image.svg
 image_alt: A block split in two with pieces flying up
 ---
