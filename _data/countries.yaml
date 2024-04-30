@@ -16,6 +16,9 @@ gr:
 il:
   name: Israel
   flag: 🇮🇱
+ps:
+  name: Palestine
+  flag: 🇵🇸
 us:
   name: United States of America
   flag: 🇺🇸

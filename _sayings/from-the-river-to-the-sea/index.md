@@ -1,0 +1,17 @@
+---
+title: From the River to the Sea
+quote: From the river to the sea
+original:
+  text: من النهر إلى البحر
+  language: ar
+country: ps
+meaning: The Palestinian destruction of Israel
+image: image.svg
+image_alt: Israel with lines from Palestine covering over it
+---
+
+"From the river to the sea" is a common phrase used by supporters of Palestine to express their desire for a one-state solution in the region. Such a state is to stretch from the Jordan River to the Mediterranean Sea—essentially what is the modern state of Israel. Therefore it is [fundamentally a call for the dismantlement of the State of Israel](https://www.adl.org/resources/backgrounder/slogan-river-sea-palestine-will-be-free) and the establishment of an [Arab-only ethnostate in its place](https://www.jpost.com/arab-israeli-conflict/article-773791#:~:text=only%205.4%25%20of%20respondents%20said%20they%20would%20support%20a%20%E2%80%9Cone-state%20for%20two%20peoples%E2%80%9D%20solution.). Certainly, many echoers of this phrase do not understand its implications, but at its core it seeks for a second Jewish diaspora in its most favorable light. A more realistic interpretation is that it is a call for the complete genocide of the Jewish people in the region.
+
+Ironically, a similar phrase may have been used in support of the reestablishment of Israel following the Holocaust. However, after the Jewish people returned to their homeland, many of the Arab people displaced by their return, who had recently begun to identify as Palestinians in pursuit of a state of their own, invented the modern phrase. Specifically, it was coined by the Palestine Liberation Organization (now the UN representative of Palestine) in the [1960s](https://whatdecadeisthis.date/1960s) to call for the Arab domination of the region by terrorizing the Jewish people into submission. In the decades since, it has inspired countless terrorist attacks with the goal of escalating the Jewish/Arab divide, bringing all Israelis under Arab rule, and removing or killing all Jewish people in the region.
+
+The phrase is often used as a "dog whistle" in the West. As outside of the Middle East it is controversial to call for the death of all Jewish people, many Pan-Arabists instead support "the liberation of Palestine" with this phrase. However, the most popular formulation of a practical Palestinian state based on the pre-1967 borders notably comprises only about 20% of that area. The area the phrase literally refers to is the whole of Palestine and Israel. Certainly some envision a singular diverse, secular government ruling the united territory. However, the Palestinian government and the majority of Palestinians do not want Jews living in any country of theirs, [with under a quarter supporting a democracy with an Arab majority but where Jews have equal rights.](https://www.pcpsr.org/en/node/928#:~:text=support%20for%20the%20one%20unequal%20state%2C%20at%2030%25%20compared%20to%2036%25%20two%20years%20ago%2C%20and%20the%20one%20equal%20or%20democratic%20state%2C%20at%2023%25) Though many Westerners may be parroting it ignorantly rather than maliciously, the phrase unequivocally a call for a Jewish genocide. Despite this, we should not assume that everyone who uses it is using it as a dog whistle. Instead, we should seek to educate them on the phrase's true meaning and encourage them to use more peaceful language in their advocacy for the Palestinian people.
