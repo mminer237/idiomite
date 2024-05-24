@@ -38,6 +38,12 @@ defaults:
   -
     scope:
       path: ""
+      type: "slang"
+    values:
+      layout: "saying"
+  -
+    scope:
+      path: ""
       type: "abbreviations"
     values:
       layout: "saying"
@@ -50,6 +56,9 @@ collections:
     output: true
     permalink: /:collection/:path
   idioms:
+    output: true
+    permalink: /:collection/:path
+  slang:
     output: true
     permalink: /:collection/:path
   abbreviations:

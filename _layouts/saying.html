@@ -8,7 +8,12 @@ layout: default
 	{% endif %}
 	<h2><q>{{ page.quote }}</q></h2>
 	<p id="meaning"><strong>Meaning:</strong> {{ page.meaning }}</p>
-	{% if page.country %}
+	{% if page.antonym %}
+	{% assign antonymPath = page.antonym | append: "/index.md" %}
+	{% assign antonymPage = site.documents | where: 'path', antonymPath | first %}
+	<p id="antonym"><strong>Antonym:</strong> <a href="{{ antonymPage.url }}">{{ antonymPage.title }}</a></p>
+	{% endif %}
+	{% if page.antonym %}
 	{% assign country = site.data.countries[page.country] %}
 	<p id="location"><strong>Originated in:</strong> {{ country.flag }}&nbsp;{{ country.name }}</p>
 	{% endif %}
