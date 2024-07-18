@@ -11,7 +11,7 @@ layout: default
 	{% if page.antonym %}
 	{% assign antonymPath = page.antonym | append: "/index.md" %}
 	{% assign antonymPage = site.documents | where: 'path', antonymPath | first %}
-	<p id="antonym"><strong>Antonym:</strong> <a href="{{ antonymPage.url }}">{{ antonymPage.title }}</a></p>
+	<p id="antonym"><strong>Antonym:</strong> <a href="{{ antonymPage.url | split: "" | reverse | join: "" | remove_first: "xedni" | split: "" | reverse | join: "" }}">{{ antonymPage.title }}</a></p>
 	{% endif %}
 	{% if page.antonym %}
 	{% assign country = site.data.countries[page.country] %}
