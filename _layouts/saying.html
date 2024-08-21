@@ -13,7 +13,7 @@ layout: default
 	{% assign antonymPage = site.documents | where: 'path', antonymPath | first %}
 	<p id="antonym"><strong>Antonym:</strong> <a href="{{ antonymPage.url | split: "" | reverse | join: "" | remove_first: "xedni" | split: "" | reverse | join: "" }}">{{ antonymPage.title }}</a></p>
 	{% endif %}
-	{% if page.antonym %}
+	{% if page.country %}
 	{% assign country = site.data.countries[page.country] %}
 	<p id="location"><strong>Originated in:</strong> {{ country.flag }}&nbsp;{{ country.name }}</p>
 	{% endif %}
