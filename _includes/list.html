@@ -2,7 +2,7 @@
 	{% assign items = site[include.type] | default: site.sayings %}
 	{% for item in items %}
 	<li>
-		<a href="{{ item.url }}"><q>{{ item.quote }}</q></a>
+		<a href="{{ item.url | split: "" | reverse | join: "" | remove_first: "xedni" | split: "" | reverse | join: "" }}"><q>{{ item.quote }}</q></a>
 	</li>
 	{% endfor %}
 </ul>
