@@ -13,7 +13,7 @@ image_alt: "?⇒X.svg"
 
 Begging the question (originally and perhaps more clearly "asking for the initial thing") is one of the classical logical fallacies. It is when one uses something as a basis for his argument without proving that initial thing to be true.
 
-For example, if one were trying to argue that cucumbers are healthy, he might say, "Vegetables are healthy, and cucumbers are a vegetable, therefore cucumbers must be healthy." The inference is logical, but he has not proven that vegetables are healthy, so the inference is logically irrelevant. He actually has not proven anything.
+For example, if one were trying to argue that cucumbers are healthy, he might say, "Vegetables are healthy, and [cucumbers are a vegetable](https://fruitorvegetable.science/cucumber), therefore cucumbers must be healthy." The inference is logical, but he has not proven that vegetables are healthy, so the inference is logically irrelevant. He actually has not proven anything.
 
 It is very similar to circular reasoning, where one uses a result of his conclusion as a premise for his argument, but begging the question does not even address the premise. Therefore, a good debater will call out the fallacy by pointing out that the argument is inviting someone to question the assumed premise.
 
