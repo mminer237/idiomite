@@ -3,7 +3,7 @@ title: Digging up Bones
 quote: Digging up bones
 country: us
 earliestAttestation: >-
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6JdbV5DDltMVCyV0twmKwj?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6JdbV5DDltMVCyV0twmKwj?utm_source=generator&theme=0" style="vertical-align: middle;" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 meaning: Bringing up old, unpleasant memories
 image: image.svg
 image_alt: A shovel digging up a skeleton
