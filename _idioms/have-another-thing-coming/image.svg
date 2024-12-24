@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="297" height="232">
+  <text xml:space="preserve" x="13.4" y="3.6" stroke-width=".3" font-family="Verdana, Geneva, sans-serif" font-size="11" letter-spacing="0" style="line-height:1.25" transform="matrix(3.6 0 0 3.6 -48 132)" word-spacing="0"><tspan x="13.4" y="3.6">thing</tspan></text>
+  <text xml:space="preserve" x="13.4" y="3.6" stroke-width=".3" font-family="Verdana, Geneva, sans-serif" font-size="11" letter-spacing="0" style="line-height:1.25" transform="matrix(3.6 0 0 3.6 149 102)" word-spacing="0"><tspan x="13.4" y="3.6">thing</tspan></text>
+  <path fill="none" stroke="#000" stroke-width="2" d="m112 209 73-73m-45 91 73-79m-26 84 74-83M101 98l58-66M65 95l59-85M28 92 80 0"/>
+</svg>
